@@ -1,35 +1,295 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>My Awsome Portfolio </title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Pradnya Gawai">
+    <title>Pradnya Gawai | Portfolio</title>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- For fixing Uncaught ReferenceError: $ is not defined? -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- For Bootstrap table -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <style>
+        a {
+            font-size: 20px;
+            color: green;
+        }
+
+        a:hover {
+            color: purple;
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body>
-<header>
-	<div class="container">
-	<nav  class="flex items-center jutify-between">
-		<div class="left flex items-center">
-			<div class="branding">
-				<img src="./images/logo.svg" alt="">
-			</div>
-			<div>
-				<a href="#">Home</a>
-				<a href="#">About </a>
-				<a href="#">Pradnya</a>
-				<a href="#">pages</a>
-				<a href="#">Blog</a>
 
-             </div>
-		</div>
-		<div class="right">
-			<button class="btn btn-primary">Contact</button>
-		</div>
-	</nav>
-</div>
-</header>
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="">Pradnya&nbsp;<span style="color: White;">Gawai</span</a>
+            </div>
+            <ul class="menu">
+                <!-- <li><a href="#" >HOME</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#learnings">Learnings</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text">A platform where you can get to know more about me,<br> my experiences & learnings!</div>
+                <div class="text-1">Hello, My name is </div>
+                <div class="text-2">Pradnya Gawai</div>
+            </div>
+    </section>
+
+
+    <!-- About -->
+    <section style="background-color: black;" class="about" id="about">
+        <div class="max-width">
+
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <a href="C:\Users\pradnya\Desktop\interview"><img src="pradnya.jpeg" alt="pradnya"> </a>
+                </div>
+
+                <div class="column right">
+                    <div class="text">I'm a <span class="typing-2"></span></div>
+
+                    <div class="" style="font-family: 'Ubuntu', 'sans-serif'; font-weight: 200; color: #fff;">
+                        <p>
+                            Hey, I am Pradnya I am a Solution-driven Front End Developer with over 3 years of experience in creating consumer-focused websites and mobile apps using HTML, CSS, React Native, ReactJS, and JavaScript. Skilled in collaborative environments, customer
+                            satisfaction, and meeting high standards for web design, user experience, best practices, and speed. Proficient in designing and developing web applications with multiple APIs, third-party integrations, and databases.
+
+
+                            <br><br> Please scroll down a bit more to know about my Skills!
+                        </p>
+                        <a class="b" download="PradnyaResume-1.pdf" target="_blank" href="https://drive.google.com/file/d/1PXcJ35r8yM3q-S92SNGHczs0h6J2KClB/view?usp=sharing">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: -7%;" class="skills-content">
+                <div style=" font-size: 35px; padding-bottom: 1%; padding-top: 2%; color: brown; text-align: center; font-weight: 600;" class="">Skills</div>
+                <table class="table" style="font-weight: 100px; font-size: 20px; color: #fff;">
+                    <thead>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">WEB</th>
+                            <td>HTML</td>
+                            <td>CSS</td>
+                            <td>Bootstrap</td>
+                            <td>Reactjs</td>
+                            <td>Javascript</td>
+                            <td>Reactjs</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Tools</th>
+                            <td>Bitbucket</td>
+                            <td>Figma</td>
+                            <td>Jira</td>
+                            <td>Jest</td>
+                            <td>NVM</td>
+                            <td>Postman</td>
+                            <td>Visual Studio code</td>
+                            <td>Webpack</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- End of About section -->
+
+
+
+
+
+    <!-- Experience -->
+    <section style="background-color: rgb(3, 3, 46); padding-top: 5%;" id="experiences" class="resume">
+        <div class="max-width">
+
+            <div class="about">
+                <div style="margin-top: -5%; margin-bottom: 5%;" class="title">
+                    My Experiences
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Experiences</h3>
+                    <div class="resume-item">
+                        <h4><a href="https://www.republicworld.com/" target="_blank">Mewurk Technology</a> | Frontend Developer</h4>
+                        <h5>october 2021 - Present | Bangluru, India</h5>
+                        <ul>
+                            <p><span style="color: brown;"> Working On HRMS Software</p>
+                            <li> <span style="color: brown;">Tech Stack </span>- HTML,CSS,Javascript,REa</li>
+                                <li> Working As Fornted Developer</span><br> Building reusable code for future use and optimizing web pages for speed and scalability
+                                </li>
+                                <li> Integrating HTML and CSS designs into React, adhering to React standards and making necessary adjustments
+                                </li>
+                                <li> Addressing and resolving various bugs reported by the production team, ensuring the stability and reliability of the RCM Platform.</li>
+
+                                <li> Assisting in estimating story points for tasks progressing to the development phase. Troubleshoot and debug application codes to improve functionality and performance. </li>
+                                <li> Adding unit test cases to maintain codebase reliability. Implementing the display of a large amount of data using AG-Grid and customize it according to requirements</li>
+                                <li>Engaging in code maintenance, clean-up activities, performance enhancements, and delivering stories within timelines. Helping freshers get trained and integrated into the team.</li>
+                                <li>Reviweing pull requests </li>
+                    </div>
+                    <div class="resume-item">
+                        <h4><a href="https://swayamhealth.com/" target="_blank">Ec-Mobality</a> | Data analyist</h4>
+                        <h5>January2021 - August 2021| Aurangabad, India</h5>
+                        <ul>
+                            <li> <span style="color: brown;">Tech Stack </span>- Python,SQL</li>
+                            <li> Worked as a Data analyst and helped to Cleaning and pre-processing data to ensure accuracy and consistency.
+                            </li>
+                            <li> Organized and structured the data to facilitate efficient annotation.
+                            </li>
+                            <li> Provided feedback to the project team about potential ambiguities or issues in the annotation guidelines.
+
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-6">
+                    <h3 class="resume-title"> Internships </h3>
+                    <div class="resume-item">
+                        <h4><a href="https://codeinplace.stanford.edu/" target="_blank">Stanford University</a> | Machine Learning Python Intern</h4>
+                        <h5>April 2021 - June 2021 | Online</h5>
+
+                        <ul>
+                            <li> Developed and implemented Backend API service for downloading secure Business data of clients </li>
+                            <li>Picked up minor tasks in frontend of the application by fixing alignments and improvising User experience</li>
+                            <li>Optimized application load time by effective memory management on server by reducing its utilization by 10%</li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Experience Section -->
+
+
+
+
+    <!-- Project -->
+    <section style="background-color: black; padding-top: 5%;" id="projects" class="resume">
+        <div class="container">
+
+            <div class="about">
+                <div style="margin-top: -5%; margin-bottom: 5%;" class="title">
+                    My Works
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-6">
+                <div class="resume-item">
+                    <h4>HRMS(Laave Module)</h4>
+                    <ul>
+                        <li> I played a pivotal role in the development of this HRMS product. I implemented key features such as the leave policy screens, leave types screens for employees, HR, and managers, approval screens, listing screens, and a calendar
+                            view of leave. My work focused on designing intuitive interfaces and ensuring a seamless user experience across all roles. By leveraging modern technologies and best practices, I contributed to creating a robust and user-friendly
+                            HRMS solution tailored to the needs of the business.
+
+
+                            <br><a style="font-size: 15px;" href="" target="_blank">Github</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="resume-item">
+                    <h4>HRMS (Task Module)</h4>
+                    <ul>In the task module of the HRMS product, I developed key functionalities such as onboarding and offboarding task templates, assigning templates, uploading files, changing employee fields, and approving or rejecting tasks. I also created
+                        distinct screens tailored to different roles, ensuring a seamless and role-specific user experience. These features were designed to streamline task management processes, enhancing the efficiency and effectiveness of the HRMS system.
+
+                        <br><a style="font-size: 15px;" href="" target="_blank">Github</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- End of Project Section -->
+
+
+    <!-- Contact  -->
+    <section class="contact" id="contact">
+        <div class="container" data-aos="fade-up">
+            <div class="xyz">
+                <h2 style="color:#fff; font-size: 40px;">Let's <i class="fas fa-heart" style="color: red;"></i> connect!</h2>
+            </div>
+            <h6 style="color:#fff; font-size: 18px; color: brown;">You can get in touch with me / Send suggestions, improvements, tea-date invites, or present via any below!
+            </h6><br>
+
+            <!-- reference -https://codepen.io/codename065/pen/doyRNw/ -->
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://github.com/pradnya-gawai" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHBR3jP671QRAAAAZFBDP1AoE103dT7wTm3isQihisqMfVor3qV6Pldk5xLvZlO_8JuUBtTSefeDE1f3dj2qT2O4dw52Yfrb3RdKmA57qoOrLDG7LvVsiJ0AN5lQo3fL7phEtM=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpradnya-g-4bb222172%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app/"
+                        target="_blank" class="btn-social btn-linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li class="list-inline-item"><a href="mailto:pradnyagawai2210@gmail.com?subject=Inquiry from Portfolio" target="_blank" class="btn-social btn-email"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+            <h3 style="color: #fff; font-size: 12px;">Thank you for visiting! Please bless me with your positive energies, radiations & vibrations to seek what is seeking me!
+                <br>"Our Desires + Our Vibrations + Our Actions" = "Our Reality"</h3>
+
+        </div>
+
+
+    </section>
+    <!-- End of Contact Section -->
+
+    <center>
+        <footer>
+            <div class="container">
+                <img src="https://visitor-badge.laobi.icu/badge?page_id=https://ashish9680.github.io/portfolio.github.io" alt="visitor badge" />
+                <p style="color: grey;">&copy; My Portfolio Website
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>. Some Rights Reserved.</p>
+            </div>
+        </footer>
+    </center>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
